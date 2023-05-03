@@ -8,6 +8,10 @@
     left: 0;
   }
 
+.nav-spacer{
+  padding-bottom: 110px;
+}
+
 /* Navbar styling */
 .navbar {
     display: flex;
