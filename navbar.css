@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* Top bar decoration */
 .top-bar {
     background-color: green;
@@ -8,6 +10,7 @@
     left: 0;
   }
 
+/* Invisible div for padding */
 .nav-spacer{
   padding-bottom: 110px;
 }
@@ -36,7 +39,7 @@
   /* ul items */
   .navbar .nav {
     display: flex;
-    gap: 20px;
+    gap: 6rem;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -60,6 +63,6 @@
   /* Navbar right-side icons */
   .navbar .nav-icons {
     display: flex;
-    gap: 10px;
+    gap: 1.8rem;
     height: 20px;
   }

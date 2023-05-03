@@ -1,3 +1,10 @@
+@charset "utf-8";
+
+/* Resets */
+body{
+  margin: 0;
+}
+
 /* CSS stylesheet for About Us page */
 
 /* Set box-sizing property to border-box for all elements */
@@ -90,48 +97,8 @@ p {
   background: #fff;
 }
 
-/* Center the footer */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #333;
-  color: #fff;
-  padding: 20px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-
-
-.footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.footer ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.socials {
-  display: flex;
-  gap: 10px;
-}
-
-.socials img {
-  height: 20px;
-}
-
-   /* Menu images */
-   .menu {
+  /* Menu images */
+  .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
