@@ -87,7 +87,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 200px 0;
+  padding: 200px 0 100px;
 }
 
 .testimonial-break {
@@ -101,10 +101,10 @@ p {
   align-items: center;
 }
 
-.about-us-full-2 {
+/* .about-us-full-2 {
   width: 100%;
   height: auto;
-}
+} */
 
 .rectangle-gradient-1 {
   display: block;
