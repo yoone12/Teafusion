@@ -1,0 +1,188 @@
+/* CSS stylesheet for About Us page */
+
+/* Set box-sizing property to border-box for all elements */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+}
+
+h2 {
+  font-family: 'Bookman Old Style', serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Mr Eaves XL Modern', sans-serif;
+  font-weight: 400;
+}
+
+.top-bar {
+  background-color: green;
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Center the container element */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Center the navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 6rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar img {
+  height: 20px;
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+
+.navbar .nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .nav li a {
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Bookman Old Style', serif;
+}
+
+.navbar .nav-icons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Center the testimonials section */
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 200px 0;
+}
+
+.testimonial-break {
+  margin: 50px 0;
+}
+
+/* Center the about us image */
+.about-us-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-full-2 {
+  width: 100%;
+  height: auto;
+}
+
+.rectangle-gradient-1 {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center the origin story section */
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.block .left {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.block .right {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.block h2 {
+  margin-bottom: 20px;
+}
+
+.testimonial-text p {
+  margin-bottom: 10px;
+}
+
+/* Center the values section */
+.block:nth-of-type(3) {
+  background: #f7f7f7;
+}
+
+/* Center the sourcing section */
+.block:nth-of-type(4) {
+  background: #fff;
+}
+
+/* Center the footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials img {
+  height: 20px;
+}
