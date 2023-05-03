@@ -8,6 +8,7 @@
     left: 0;
   }
 
+/* Invisible div for padding */
 .nav-spacer{
   padding-bottom: 110px;
 }

@@ -1,3 +1,8 @@
+/* Resets */
+body{
+  margin: 0;
+}
+
 /* CSS stylesheet for About Us page */
 
 /* Set box-sizing property to border-box for all elements */
@@ -99,7 +104,7 @@ p {
   color: #fff;
   padding: 20px;
   width: 100%;
-  position: fixed;
+/*   position: fixed; */
   bottom: 0;
   left: 0;
 }
