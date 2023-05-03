@@ -19,15 +19,6 @@ p {
   font-weight: 400;
 }
 
-.top-bar {
-  background-color: green;
-  height: 20px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 /* Center the container element */
 .container {
   max-width: 1200px;
