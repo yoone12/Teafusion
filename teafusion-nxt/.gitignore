@@ -35,4 +35,4 @@ yarn-error.log*
 next-env.d.ts
 
 # sql
-../test.session.sql
+test.session.sql
