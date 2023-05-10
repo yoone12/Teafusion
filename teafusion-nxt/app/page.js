@@ -1,3 +1,5 @@
+import Navbar from "./navbar.js";
+
 export default function Home() {
   return (
     <>
@@ -11,7 +13,7 @@ export default function Home() {
     <div className="top-bar" />
     <div className="container">
       {/* Navbar */}
-      <div className="navbar">
+{/*       <div className="navbar">
         <img
           className="logo"
           src="assets/images/home/TeaFusion-logo.png"
@@ -36,7 +38,8 @@ export default function Home() {
           <img src="assets/images/home/icon-profile.png" alt="" />
           <img src="assets/images/home/icon-bag.png" alt="" />
         </div>
-      </div>
+      </div> */}
+      <Navbar />
       {/* Landing content */}
       <div className="landing">
         <div className="landing-image">
