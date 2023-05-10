@@ -26,6 +26,27 @@ p {
   font-weight: 400;
 }
 
+.landing {
+  position: relative;
+}
+
+.landing-image {
+  position: relative;
+}
+
+.landing-image button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Center the full bleed image */
+.landing img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Center the container element */
 .container {
   max-width: 1200px;
