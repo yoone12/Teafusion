@@ -1,4 +1,5 @@
 import Navbar from "./navbar.js";
+import Footer from "./footer.js";
 
 export default function Home() {
   return (
@@ -104,23 +105,7 @@ export default function Home() {
       </div>
     </div>
     {/* Footer */}
-    <div className="footer">
-      <ul className="footernav">
-        <li>
-          <a href="" onclick="return false">
-            Privacy Policy
-          </a>
-        </li>
-        <li>
-          <a href="" onclick="return false">
-            Terms and Conditions
-          </a>
-        </li>
-      </ul>
-      <div className="socials">
-        <img src="assets/images/about/social-icons-r.png" alt="" />
-      </div>
-    </div>
+    <Footer />
   </>
   
   )
