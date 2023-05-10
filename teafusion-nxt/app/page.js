@@ -1,95 +1,124 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
+    <>
+    <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <title>Home</title>
+    <div className="top-bar" />
+    <div className="container">
+      {/* Navbar */}
+      <div className="navbar">
+        <img
+          className="logo"
+          src="assets/images/home/TeaFusion-logo.png"
+          alt="Teafusion Logo"
+        />
+        <ul className="nav">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="about">About Us</a>
+          </li>
+          <li>
+            <a href="teas">Tea</a>
+          </li>
+          <li>
+            <a href="teaware">Teaware</a>
+          </li>
+        </ul>
+        <div className="nav-icons">
+          <img src="assets/images/home/icon-search.png" alt="" />
+          <img src="assets/images/home/icon-profile.png" alt="" />
+          <img src="assets/images/home/icon-bag.png" alt="" />
+        </div>
+      </div>
+      {/* Landing content */}
+      <div className="landing">
+        <div className="landing-image">
+          <img src="assets/images/home/home-full-1.png" alt="" />
+          <button>Discover our teas</button>
+        </div>
+      </div>
+      {/* Menu images */}
+      <div className="menu">
+        <div className="menuitem">
+          <a href="">
+            {/* <h1>Teas</h1> */}
+            <img src="assets/images/home/hover-teas.png" alt="" />
+          </a>
+        </div>
+        <div className="menuitem">
+          <a href="">
+            {/* <h1>Spices</h1> */}
+            <img src="assets/images/home/hover-spices.png" alt="" />
+          </a>
+        </div>
+        <div className="menuitem">
+          <a href="">
+            {/* <h1>Wares</h1> */}
+            <img src="assets/images/home/hover-wares.png" alt="" />
           </a>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
+      {/* Image, Parallax(?) */}
+      <img src="assets/images/home/home-full-2.png" alt="" />
+      {/* About us block */}
+      <div className="block">
+        <div className="left">
+          <img src="assets/images/about/about-us-half.png" alt="" />
+          <h1>About Us</h1>
+        </div>
+        <div className="right">
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Teafusion is a quality tea brand specializing in organic herbal tea.
+            Targeting celebrated tea lovers and health-conscious individuals, our
+            goal is to share a warm, hearty cup of tea with the world.
           </p>
-        </a>
+          <button>Learn more</button>
+          <img src="assets/images/home/usda-organic.png" alt="" />
+          <img src="assets/images/home/non-gmo.png" alt="" />
+        </div>
       </div>
-    </main>
+      {/* Join us block */}
+      <div className="block">
+        <div className="left">
+          <h1>Join us</h1>
+          <p>
+            Join our email list to get 10% off and be the first to know about new
+            products and special offers.
+          </p>
+          <h1>TEMP: Your email address (field)</h1>
+          <button>Sign up</button>
+        </div>
+        <div className="right">
+          <img src="assets/images/home/join-us.png" alt="" />
+        </div>
+      </div>
+    </div>
+    {/* Footer */}
+    <div className="footer">
+      <ul className="footernav">
+        <li>
+          <a href="" onclick="return false">
+            Privacy Policy
+          </a>
+        </li>
+        <li>
+          <a href="" onclick="return false">
+            Terms and Conditions
+          </a>
+        </li>
+      </ul>
+      <div className="socials">
+        <img src="assets/images/about/social-icons-r.png" alt="" />
+      </div>
+    </div>
+  </>
+  
   )
 }
