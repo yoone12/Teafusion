@@ -23,10 +23,10 @@ const nextConfig = {
             source:'/about',
             destination: '/html/about.html',
         },
-        {
+/*         {
             source:'/profile',
             destination: '/html/profile.html',
-        },
+        }, */
         ];
     },
 }
