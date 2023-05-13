@@ -5,7 +5,7 @@ body{
   margin: 0;
 }
 
-/* CSS stylesheet for About Us page */
+/* CSS stylesheet */
 
 /* Set box-sizing property to border-box for all elements */
 * {
@@ -37,7 +37,7 @@ p {
 .landing-image button {
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
 }
 
 /* Center the full bleed image */
@@ -165,3 +165,19 @@ p {
     background-repeat: no-repeat;
     position: relative;
 }
+
+button {
+  background-color: #EDA91F;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border: none;
+  padding: 12px 22px;
+  transition: opacity 0.2s ease-in-out;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
