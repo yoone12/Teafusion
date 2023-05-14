@@ -34,7 +34,7 @@
 
 /* Teafusion logo */
 .navbar .logo {
-  height: 30px;
+  height: 45px;
 }
 
 /* ul items */
@@ -54,7 +54,7 @@
   text-decoration: none;
   font-weight: bold;
   font-family: 'Bookman Old Style', serif;
-  font-size: 12px;
+  font-size: 17px;
 }
 
 /* ul items hover color */
@@ -79,7 +79,7 @@
 
 /* Navbar right-side icons */
 .navbar .nav-icons img {
-  width: 16px;
+  width: 24px;
   transition: all 0.3s ease-in-out;
 }
 

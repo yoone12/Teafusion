@@ -4,6 +4,7 @@
 body {
   margin: 0;
 }
+
 /* CSS stylesheet */
 
 /* Set box-sizing property to border-box for all elements */
@@ -26,6 +27,7 @@ p {
   font-family: 'Instrument Sans', sans-serif;
   font-family: 'Lato', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
 }
 
 button {
@@ -79,7 +81,25 @@ img[src="assets/images/home/home-full-2.png"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 200px 0 100px;
+  padding: 100px;
+}
+
+.flex-row img {
+  width: 200px;
+  height: 200px;
+}
+
+/* testimonial*/
+.testimonial-break {
+  margin: 30px 0;
+}
+
+.testimonial-container {
+  margin-left: 100px;
+}
+
+.testimonial-text p {
+  margin-bottom: 10px;
 }
 
 /* Center the about us image */
@@ -119,20 +139,6 @@ img[src="assets/images/home/home-full-2.png"] {
 
 .block h2 {
   margin-bottom: 20px;
-}
-
-/* testimonial*/
-.testimonial-break {
-  margin: 30px 0;
-}
-
-.testimonial-container {
-  margin-left: 100px;
-  font-size: 12px;
-}
-
-.testimonial-text p {
-  margin-bottom: 10px;
 }
 
 /* Center the values section */
@@ -193,8 +199,13 @@ img[src="assets/images/home/home-full-2.png"] {
   position: relative;
 }
 
+/*right section*/
 .right {
-  margin-top: 120px;
+  margin-top: 90px;
+}
+
+.right p {
+  margin-right: 120px;
 }
 
 .right img {
@@ -202,18 +213,20 @@ img[src="assets/images/home/home-full-2.png"] {
   height: auto;
 }
 
-.flex-row {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 900px;
-  margin-left: 20px;
-  margin-right: 20px;
+.left img {
+  width: 85%;
+  height: auto;
+  margin-left: 6rem;
 }
 
-.flex-row img {
-  width: 200px;
-  height: 200px;
-  margin: 0 20px;
+.source-text p {
+  margin-left: 5px;
+  margin-right: 250px;
+  margin-bottom: 10px;
 }
 
+.source img {
+  width: 85%;
+  height: auto;
+  margin-right: 24rem;
+}
