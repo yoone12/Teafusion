@@ -12,10 +12,12 @@ body {
   box-sizing: border-box;
 }
 
+/* Set background color for body */
 body {
   background-color: rgb(248, 248, 248);
 }
 
+/* Set styles for heading 2 elements */
 h2 {
   font-family: 'Bookman Old Style', serif;
   font-weight: bold;
@@ -23,6 +25,7 @@ h2 {
   font-size: 2.3rem;
 }
 
+/* Set styles for paragraph elements */
 p {
   font-family: 'Instrument Sans', sans-serif;
   font-family: 'Lato', sans-serif;
@@ -30,6 +33,7 @@ p {
   font-size: 18px;
 }
 
+/* Set styles for button elements */
 button {
   background-color: #EDA91F;
   color: white;
@@ -40,23 +44,28 @@ button {
   transition: opacity 0.2s ease-in-out;
 }
 
+/* Set styles for button elements on hover */
 button:hover {
   opacity: 0.8;
 }
 
+/* Set styles for specific image element */
 img[src="assets/images/home/home-full-2.png"] {
   width: 100vw;
   height: auto;
 }
 
+/* Set styles for landing section */
 .landing {
   position: relative;
 }
 
+/* Set styles for landing image section */
 .landing-image {
   position: relative;
 }
 
+/* Set styles for button inside landing image section */
 .landing-image button {
   position: absolute;
   bottom: 20px;
@@ -84,12 +93,13 @@ img[src="assets/images/home/home-full-2.png"] {
   padding: 110px 20px;
 }
 
+/* Set width and height for images in the testimonials section */
 .flex-row img {
   width: 300px;
   height: 300px;
 }
 
-/* testimonial*/
+/* Set styles for testimonial section */
 .testimonial-break {
   margin: 30px 0;
 }
@@ -117,6 +127,7 @@ img[src="assets/images/home/home-full-2.png"] {
   height: auto;
 } */
 
+/* Set styles for a gradient background */
 .rectangle-gradient-1 {
   display: block;
   position: relative;
