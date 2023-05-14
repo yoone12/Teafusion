@@ -1,10 +1,9 @@
 @charset "utf-8";
 
 /* Resets */
-body{
+body {
   margin: 0;
 }
-
 /* CSS stylesheet */
 
 /* Set box-sizing property to border-box for all elements */
@@ -19,11 +18,14 @@ body {
 h2 {
   font-family: 'Bookman Old Style', serif;
   font-weight: bold;
+  color: rgb(51, 20, 20);
+  font-size: 1.8rem;
 }
 
 p {
-  font-family: 'Mr Eaves XL Modern', sans-serif;
-  font-weight: 400;
+  font-family: 'Instrument Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 button {
@@ -80,10 +82,6 @@ img[src="assets/images/home/home-full-2.png"] {
   padding: 200px 0 100px;
 }
 
-.testimonial-break {
-  margin: 50px 0;
-}
-
 /* Center the about us image */
 .about-us-img {
   display: flex;
@@ -123,6 +121,16 @@ img[src="assets/images/home/home-full-2.png"] {
   margin-bottom: 20px;
 }
 
+/* testimonial*/
+.testimonial-break {
+  margin: 30px 0;
+}
+
+.testimonial-container {
+  margin-left: 100px;
+  font-size: 12px;
+}
+
 .testimonial-text p {
   margin-bottom: 10px;
 }
@@ -137,37 +145,37 @@ img[src="assets/images/home/home-full-2.png"] {
   background: #fff;
 }
 
-  /* Menu images */
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+/* Menu images */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .menuitem {
-    width: calc(100% / 3);
-    text-align: center;
-    position: relative;
-    padding: 80px;
+  width: calc(100% / 3);
+  text-align: center;
+  position: relative;
+  padding: 80px;
 }
 
 .menuitem:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .menuitem img {
-    max-width: 140%;
-    height: auto;
-    transition: all 0.2s ease-in-out;
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+  max-width: 140%;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .menuitem img:hover {
@@ -177,12 +185,35 @@ img[src="assets/images/home/home-full-2.png"] {
 
 /* Image, Parallax(?) */
 .parallax {
-    height: 500px;
-    background-image: url('./assets/images/home/home-full-2.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
+  height: 500px;
+  background-image: url('./assets/images/home/home-full-2.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
+.right {
+  margin-top: 120px;
+}
+
+.right img {
+  max-width: 200px;
+  height: auto;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 900px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.flex-row img {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+}
 
