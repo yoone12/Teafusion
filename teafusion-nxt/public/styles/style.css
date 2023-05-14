@@ -26,6 +26,25 @@ p {
   font-weight: 400;
 }
 
+button {
+  background-color: #EDA91F;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border: none;
+  padding: 12px 22px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+img[src="assets/images/home/home-full-2.png"] {
+  width: 100vw;
+  height: auto;
+}
+
 .landing {
   position: relative;
 }
@@ -166,18 +185,4 @@ p {
     position: relative;
 }
 
-button {
-  background-color: #EDA91F;
-  color: white;
-  letter-spacing: 1px;
-  border-radius: 3px;
-  border: none;
-  padding: 12px 22px;
-  transition: opacity 0.2s ease-in-out;
-
-}
-
-button:hover {
-  opacity: 0.8;
-}
 
