@@ -67,8 +67,25 @@ button:hover {
   display: block;
 }
 
+.landing .landing-image img {
+  width: 100%;
+  height: auto;
+}
+
 .landing {
-  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-image {
+  height: 100%;
+  width: 100%;
+  background-image: url("assets/images/home/home-full-2.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .landing button {
@@ -187,14 +204,17 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 10px;
+  margin-left: -80px;
 }
 
 .menuitem {
   width: calc(100% / 3);
   text-align: center;
   position: relative;
-  padding: 80px;
+  padding: 70px;
+  margin-right: 10px;
+
 }
 
 .menuitem:hover::before {
