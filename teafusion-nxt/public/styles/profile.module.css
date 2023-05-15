@@ -1,6 +1,6 @@
 .container{
     max-width: 70%;
-    margin: 2rem auto 0;
+    margin: 2rem auto;
 }
 
 .section{
@@ -23,13 +23,13 @@
 }
 
 .column1{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .column2{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .pfp{
@@ -37,9 +37,47 @@
     height: 240px;
 }
 
-.right div h1{
+/* All text */
+.row1{
+    letter-spacing: 1px;
+}
+
+/* "My Account" */
+.row1 h1{
     font-family: 'Bookman Old Style', serif;
     font-weight: bold;
-    color: rgb(51,20,20);
+    color: darkgreen;
     font-size: 2.3rem;
+}
+
+/* Section headers */
+.row2 div h3{
+    margin-top: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    color: darkgreen;
+    font-size: 20px;
+}
+
+/* Information subheaders */
+.row2 div h4{
+    color: rgb(60,60,60);
+    font-weight: lighter;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.column1 p{
+    font-size: 15px;
+}
+
+.orderH{
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+    font-size: 18px !important; 
+}
+
+.orderT{
+    font-weight: 200;
+    margin-top: 0;
+    font-size: 15px;
 }
