@@ -231,6 +231,7 @@ button:hover {
 /* Styles for the text block on the left */
 .ab-block-text {
   padding: 10rem 6rem;
+  color: darkgreen;
 }
 
 .ab-left {
@@ -490,7 +491,6 @@ button[type="submit"]:hover {
 .tea-product-item img:hover {
   opacity: 0.8;
   border-radius: 9px;
-  border: solid rgb(188, 188, 188) 1px;
 }
 
 .product-text,
