@@ -5,6 +5,10 @@ import "public/styles/navbar.css";
 export default function profile(){
     return(
         <>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile</title>
             <Navbar />
             <div className="container">
                 <div className="">
