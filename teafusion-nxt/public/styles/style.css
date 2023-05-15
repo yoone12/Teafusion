@@ -2,174 +2,171 @@
 
 /* Resets */
 body {
-  margin: 0;
+margin: 0;
 }
-
-/* CSS stylesheet */
 
 /* Set box-sizing property to border-box for all elements */
-* {
-  box-sizing: border-box;
+*{
+box-sizing: border-box;
 }
-
 /* Set background color for body */
 body {
-  background-color: rgb(248, 248, 248);
+background-color: rgb(248, 248, 248);
 }
 
-/* Set styles for heading 2 elements */
+/* Set styles for heading elements */
 h2 {
-  font-family: 'Bookman Old Style', serif;
-  font-weight: bold;
-  color: rgb(51, 20, 20);
-  font-size: 2.3rem;
+font-family: 'Bookman Old Style', serif;
+font-weight: bold;
+color: rgb(51, 20, 20);
+font-size: 2.3rem;
+}
+
+h3,
+h4 {
+font-family: 'Nunito Sans', sans-serif;
 }
 
 h3 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.5rem;
-  margin-top: 4rem;
-  letter-spacing: 2px;
+font-size: 1.5rem;
+margin-top: 4rem;
+letter-spacing: 2px;
 }
 
 h4 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 1rem;
+font-size: 1rem;
 }
 
 /* Set styles for paragraph elements */
 p {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 18px;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
 }
 
 /* Set styles for button elements */
 button {
-  background-color: #EDA91F;
-  color: white;
-  letter-spacing: 1px;
-  border-radius: 3px;
-  border: none;
-  padding: 12px 22px;
-  transition: opacity 0.2s ease-in-out;
+background-color: #EDA91F;
+color: white;
+letter-spacing: 1px;
+border-radius: 3px;
+border: none;
+padding: 12px 22px;
+transition: opacity 0.2s ease-in-out;
 }
 
 /* Set styles for button elements on hover */
 button:hover {
-  opacity: 0.8;
+opacity: 0.8;
 }
 
 /* Set styles for landing image section */
-
-/* Set styles for button inside landing image section */
-.landing-image button {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
+.landing img {
+width: 100%;
+height: auto;
+display: block;
 }
 
-/* Center the full bleed image */
-.landing img {
-  width: 100%;
-  height: auto;
-  display: block;
+.landing-image button {
+position: absolute;
+bottom: 20px;
+left: 20px;
 }
 
 /* Center the container element */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+max-width: 1200px;
+margin: 0 auto;
 }
 
 /* Center the testimonials section */
 .flex-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 110px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 110px 20px;
 }
 
 /* Set width and height for images in the testimonials section */
 .flex-row img {
-  width: 300px;
-  height: 300px;
+width: 300px;
+height: 300px;
 }
 
 /* Set styles for testimonial section */
 .testimonial-break {
-  margin: 30px 0;
+margin: 30px 0;
 }
 
 .testimonial-container {
-  margin-left: 100px;
+margin-left: 100px;
 }
 
 .testimonial-text p {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 /* Center the about us image */
 .about-us-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 100%;
+height: auto;
 }
 
 .about-us-img>img {
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }
 
 /* Set styles for a gradient background */
 .gradient {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .rectangle-gradient-1 {
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }
 
 .rectangle-gradient-2 {
-  display: block;
-  position: relative;
-  width: 200%;
+display: block;
+position: relative;
+width: 200%;
 }
 
 /* Center the origin story section */
 .block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 70px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 70px 0;
 }
 
 .block .left {
-  flex: 1;
-  padding-right: 20px;
+flex: 1;
+padding-right: 20px;
 }
 
 .block .right {
-  flex: 1;
-  padding-left: 100px;
+flex: 1;
+padding-left: 100px;
 }
 
 .block h2 {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 /* Center the values section */
 .block:nth-of-type(3) {
-  background: #f7f7f7;
+background: #f7f7f7;
 }
 
 /* Center the sourcing section */
 .block:nth-of-type(4) {
-  background: #fff;
+background: #fff;
 }
 
 /* Menu images */
@@ -202,7 +199,6 @@ button:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1);
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .menuitem img:hover {
@@ -210,7 +206,7 @@ button:hover {
   transform: scale(1.1);
 }
 
-/*right section*/
+/* Right section */
 .right {
   margin-top: 80px;
 }
@@ -243,43 +239,56 @@ button:hover {
   margin-right: 30rem;
 }
 
-/* teas page */
-.product {
+/* Teas page */
+.product, .tea-products {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* total width of four items */
 }
 
-.product button,
-.tea-product-text button {
-  color: white;
-  background-color: darkgreen;
-}
-
-.product-item {
+/* Styling for product and tea-products sections */
+.product-item, .tea-product-item {
   box-sizing: border-box;
   padding: 3rem;
+  text-align: center;
 }
 
-.product-item img {
+.product-item img, .tea-product-item img {
   width: 100%;
   height: auto;
 }
 
-.product-item img:hover,
-.tea-product-item img:hover {
+.product-item img:hover, .tea-product-item img:hover {
   opacity: 0.8;
 }
 
-.product-text {
-  text-align: center;
+.product-text, .tea-product-item p:first-child {
   color: darkgreen;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .product-text p:first-child {
   font-weight: 800;
-  letter-spacing: 1px;
+}
+
+.product button, .tea-product-text button {
+  color: white;
+  background-color: darkgreen;
+}
+
+.center h2, .center h3, .featured-header {
+  color: darkgreen;
+  text-align: center;
+}
+
+.center h3 {
+  margin-bottom: 10px;
+}
+
+.center h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .featured img {
@@ -290,20 +299,6 @@ button:hover {
   height: auto;
 }
 
-.center h3, .center h2 {
-  color: darkgreen;
-  text-align: center;
-}
-
-.center h3 {
-  margin-bottom: 10px; /* reduce the margin between h3 and h2 */
-}
-
-.center h2 {
-  margin-top: 0; /* remove the default margin-top */
-  margin-bottom: 10px; /* reduce the margin between h2 and other elements */
-}
-
 .featured-flavors-container {
   display: flex;
   flex-direction: row;
@@ -312,7 +307,7 @@ button:hover {
   margin: 3rem 0;
 }
 
-.featured-flavors {
+.featured-flavors, .flavor-icons-column {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -322,10 +317,6 @@ button:hover {
   margin-left: 10px;
   margin-right: 150px;
   color: rgb(89, 18, 18);
-}
-
-.featured-header {
-  margin-top: 90px;
 }
 
 .featured-description {
@@ -349,17 +340,13 @@ button:hover {
 
 .flavor-icons-column img {
   max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
   height: 140px;
+  margin-bottom: 10px;
 }
 
-/*star rating*/
 .checked {
   color: orange;
 }
-
-/*tea products page*/
 
 .tea-products {
   display: flex;
@@ -389,12 +376,12 @@ button:hover {
 
 .tea-product-item p:first-child {
   margin-top: 40px;
-  font-weight: 800 ;
+  font-weight: 800;
 }
 
 .tea-product-item p:first-child:hover {
- text-decoration: underline;
-color: green;
+  text-decoration: underline;
+  color: green;
 }
 
 .awaken {
@@ -423,7 +410,6 @@ color: green;
   color: darkgreen;
   margin-bottom: 10px;
 }
-
 .about-oolong-text h3 {
   color: darkgreen;
   font-size: 1rem;
@@ -437,14 +423,12 @@ color: green;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .tp-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
 }
-
 .tp-left a {
   display: block;
   text-align: center;
@@ -453,22 +437,18 @@ color: green;
   color: #4B4B4B;
   margin-top: 10px;
 }
-
 .small-img {
   width: 200px;
   margin: 30px 0;
 }
-
 .tp-right {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-
 .hb-title {
   margin-bottom: 20px;
 }
-
 .hb-text {
   margin-bottom: 30px;
 }
@@ -478,13 +458,11 @@ color: green;
   margin-right: 10px;
   margin-bottom: 1rem;
 }
-
 .rating {
   font-family: 'Nunito', sans-serif;
   text-decoration: underline;
   color: orange;
 }
-
 .price {
   font-family: 'Bookman Old Style', serif;
   font-weight: bold;
@@ -496,18 +474,15 @@ color: green;
   float: left;
   margin-right: 150px;
 }
-
 .right-product img {
   border-radius: 10px;
   border: solid gray 2px;
   background-color: #ffffff;
 }
-
 .right-product-text p:nth-child(2) {
   color: darkgreen;
   margin-top: -15px;
 }
-
 
 .add-to-cart-btn {
   background-color: darkgreen;
