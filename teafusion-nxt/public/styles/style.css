@@ -67,25 +67,8 @@ button:hover {
   display: block;
 }
 
-.landing .landing-image img {
-  width: 100%;
-  height: auto;
-}
-
 .landing {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.landing-image {
-  height: 100%;
-  width: 100%;
-  /* background-image: url("assets/images/home/home-full-2.png"); */
-  background-size: cover;
-  background-position: center;
+  position: relative;
 }
 
 .landing button {
