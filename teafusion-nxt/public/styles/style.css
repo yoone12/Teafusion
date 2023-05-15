@@ -336,6 +336,8 @@ button:hover {
   font-family: 'Bookman Old Style', serif;
   font-size: 20px;
   margin-bottom: 5rem;
+  color: white;
+  background-color: #6A7F51;
 }
 
 /* Styles for the text block on the left */
@@ -360,23 +362,10 @@ button:hover {
   margin-bottom: 10px;
 }
 
-.join-us-block button {
-  padding: 12px 24px;
-  background-color: orange;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 18px;
-  transition: all 0.3s ease-in-out;
-}
-
-.join-us-block button:hover {
-  opacity: .8;
-}
-
 /* Styles for the image on the right */
 .join-right img {
-  width: 100%;
+  width: 90%;
+  padding: 50px;
 }
 
 /* Responsive styles */
@@ -393,6 +382,52 @@ button:hover {
   }
 
 }
+
+/* Form*/
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input[type="email"] {
+  padding: 15px;
+  width: 300px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Change the placeholder text font */
+input::placeholder {
+  font-family: 'Nunito-Sans', sans-serif;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 180px; /* set width as desired */
+}
+
+button[type="submit"]:hover {
+  opacity: .8;
+}
+
 
 
 /* Right section */
@@ -660,7 +695,7 @@ button:hover {
 .tp-left a {
   display: block;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito-Sans', sans-serif;
   font-size: 14px;
   color: #4B4B4B;
   margin-top: 10px;
@@ -692,7 +727,7 @@ button:hover {
 }
 
 .rating {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito-Sans', sans-serif;
   text-decoration: underline;
   color: orange;
 }
