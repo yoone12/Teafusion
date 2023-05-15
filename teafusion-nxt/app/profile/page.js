@@ -1,6 +1,7 @@
 import Navbar from "../navbar.js";
 import Footer from "../footer.js";
 import "public/styles/navbar.css";
+import styles from "public/styles/profile.module.css";
 
 export default function profile(){
     return(
@@ -10,11 +11,11 @@ export default function profile(){
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Profile</title>
             <Navbar />
-            <div className="container">
-                <div className="">
-                    <img src="assets/images/profile/pfp-x.png" />
-                    <div className="right">
-                        <div className="column1">
+            <div className={styles.container}>
+                <div className={styles.section}>
+                    <img className={styles.pfp} src="assets/images/profile/pfp-x.png" />
+                    <div className={styles.right}>
+                        <div className={styles.column1}>
                             <h1>My Account</h1>
                             <p>Tea Connoisseur since 2018</p>
                             <h2>Account Info</h2>
@@ -25,7 +26,7 @@ export default function profile(){
                             <h3>Country:</h3>
                             <p>COUNTRY</p>
                         </div>
-                        <div className="column2">
+                        <div className={styles.column2}>
                             <h1>Order History</h1>
                             <h2>ORDER COLUMN 1</h2>
                             <p>ORDER COLUMN 2+3</p>
@@ -34,8 +35,9 @@ export default function profile(){
                         </div>
                     </div>
                 </div>
-            </div>
             <Footer />
+            </div>
+            
         </>
     )
 }
