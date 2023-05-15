@@ -3,6 +3,7 @@
 /* Resets */
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* Set box-sizing property to border-box for all elements */
@@ -38,6 +39,11 @@ h4 {
   font-size: 1rem;
 }
 
+img {
+  overflow: visible !important;
+  overflow-clip-margin: initial !important;
+}
+
 /* Set styles for paragraph elements */
 p {
   font-family: 'Nunito Sans', sans-serif;
@@ -67,10 +73,6 @@ button:hover {
   display: block;
 }
 
-.landing {
-  position: relative;
-}
-
 .landing button {
   color: white;
   background-color: orange;
@@ -87,7 +89,7 @@ button:hover {
 
 /* Center the container element */
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -187,15 +189,15 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
-  margin-left: -80px;
+  margin: 0  70px 20px 0;
+
 }
 
 .menuitem {
   width: calc(100% / 3);
   text-align: center;
   position: relative;
-  padding: 70px;
+  padding: 100px;
   margin-right: 10px;
 
 }
