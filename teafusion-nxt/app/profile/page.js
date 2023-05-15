@@ -15,29 +15,32 @@ export default function profile(){
                 <div className={styles.section}>
                     <img className={styles.pfp} src="assets/images/profile/pfp-x.png" />
                     <div className={styles.right}>
-                        <div className={styles.column1}>
+                        <div className={styles.row1}>
                             <h1>My Account</h1>
                             <p>Tea Connoisseur since 2018</p>
-                            <h2>Account Info</h2>
-                            <h3>Name:</h3>
-                            <p>NAME</p>
-                            <h3>Email:</h3>
-                            <p>EMAIL</p>
-                            <h3>Country:</h3>
-                            <p>COUNTRY</p>
                         </div>
-                        <div className={styles.column2}>
-                            <h1>Order History</h1>
-                            <h2>ORDER COLUMN 1</h2>
-                            <p>ORDER COLUMN 2+3</p>
-                            <h2>ORDER COLUMN 1</h2>
-                            <p>ORDER COLUMN 2+3</p>
-                        </div>
+                        <div className={styles.row2}>
+                            <div className={styles.column1}>
+                                <h2>ACCOUNT INFO</h2>
+                                <h3>Name:</h3>
+                                <p>NAME</p>
+                                <h3>Email:</h3>
+                                <p>EMAIL</p>
+                                <h3>Country:</h3>
+                                <p>COUNTRY</p>
+                            </div>
+                            <div className={styles.column2}>
+                                <h2>ORDER HISTORY</h2>
+                                <h2>ORDER COLUMN 1</h2>
+                                <p>ORDER COLUMN 2+3</p>
+                                <h2>ORDER COLUMN 1</h2>
+                                <p>ORDER COLUMN 2+3</p>
+                            </div>
+                        </div>          
                     </div>
                 </div>
-            <Footer />
             </div>
-            
+        <Footer />
         </>
     )
 }

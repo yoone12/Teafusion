@@ -1,6 +1,6 @@
 .container{
     max-width: 70%;
-    margin: 0 auto;
+    margin: 2rem auto 0;
 }
 
 .section{
@@ -12,9 +12,14 @@
 
 .right{
     display: flex;
-    flex-direction: row;
-    gap: 5em;
+    flex-direction: column;
     justify-content: center;
+}
+
+.row2{
+    flex-direction: row;
+    display: flex;
+    gap: 5em;
 }
 
 .column1{
@@ -28,6 +33,13 @@
 }
 
 .pfp{
-    max-width: 260px;
-    height: 260px;
+    max-width: 240px;
+    height: 240px;
+}
+
+.right div h1{
+    font-family: 'Bookman Old Style', serif;
+    font-weight: bold;
+    color: rgb(51,20,20);
+    font-size: 2.3rem;
 }
