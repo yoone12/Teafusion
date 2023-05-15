@@ -12,7 +12,7 @@ export default function profile(){
             <Navbar />
             <div className="container">
                 <div className="">
-                    <img src="" />
+                    <img src="assets/images/profile/pfp-x.png" />
                     <div className="right">
                         <div className="column1">
                             <h1>My Account</h1>
