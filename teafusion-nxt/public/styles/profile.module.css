@@ -22,16 +22,6 @@
     gap: 5em;
 }
 
-.column1{
-    /* display: flex;
-    flex-direction: column; */
-}
-
-.column2{
-    /* display: flex;
-    flex-direction: column; */
-}
-
 .pfp{
     max-width: 240px;
     height: 240px;
