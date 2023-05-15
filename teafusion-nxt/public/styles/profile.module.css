@@ -1,0 +1,45 @@
+.container{
+    max-width: 70%;
+    margin: 2rem auto 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row2{
+    flex-direction: row;
+    display: flex;
+    gap: 5em;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.pfp{
+    max-width: 240px;
+    height: 240px;
+}
+
+.right div h1{
+    font-family: 'Bookman Old Style', serif;
+    font-weight: bold;
+    color: rgb(51,20,20);
+    font-size: 2.3rem;
+}
