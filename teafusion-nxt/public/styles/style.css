@@ -26,18 +26,19 @@ h2 {
 }
 
 h3 {
-  font-family: 'Instrument Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1.5rem;
   margin-top: 4rem;
   letter-spacing: 2px;
 }
 
+h4 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+}
+
 /* Set styles for paragraph elements */
 p {
-  font-family: 'Instrument Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
 }
@@ -57,15 +58,7 @@ button {
 button:hover {
   opacity: 0.8;
 }
-/* Set styles for landing section */
-.landing {
-  position: relative;
-}
-
 /* Set styles for landing image section */
-.landing-image {
-  position: relative;
-}
 
 /* Set styles for button inside landing image section */
 .landing-image button {
@@ -223,6 +216,8 @@ button:hover {
 
 .right p {
   margin-right: 70px;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
 .right img {
@@ -255,9 +250,10 @@ button:hover {
   /* total width of four items */
 }
 
-.product button{
-color: white;
-background-color: green;
+.product button,
+.tea-product-text button {
+  color: white;
+  background-color: green;
 }
 
 .product-item {
@@ -270,7 +266,8 @@ background-color: green;
   height: auto;
 }
 
-.product-item img:hover {
+.product-item img:hover,
+.tea-product-item img:hover {
   opacity: 0.8;
 }
 
@@ -348,6 +345,84 @@ background-color: green;
   height: 140px;
 }
 
+/*star rating*/
 .checked {
   color: orange;
+}
+
+/*tea products page*/
+
+.tea-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.tea-product-item {
+  width: 30%;
+  margin: 1em;
+  text-align: center;
+  padding: 2em;
+}
+
+.tea-product-item img {
+  max-width: 100%;
+}
+
+.tea-product-item p {
+  margin: 0.5em 0;
+}
+
+.awaken {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.awaken img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.right-product-text>p:first-child {
+  font-family: 'Bookman Old Style', serif;
+  font-weight: bold;
+  color: green;
+  font-size: 2.2rem;
+}
+
+.tp-left a {
+  text-decoration: underline;
+  color: black;
+  font-family: 'Nunito Sans';
+}
+
+.tp-left a:hover {
+  color: gray;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.tp-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.tp-column {
+  flex-basis: calc(50% - 10px);
+  margin-top: 40px;
+}
+
+.tp-column img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  height: 140px;
 }

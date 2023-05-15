@@ -44,3 +44,7 @@
 .socials img{
     max-width: 200px;
 }
+
+.socials img:hover{
+    opacity: 0.8;
+}
