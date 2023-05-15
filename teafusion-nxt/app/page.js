@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </div>
       {/* Image, Parallax(?) */}
-      <img src="assets/images/home/home-full-2.png" alt="" />
+      <img src="assets/images/home/home-full-2.png" className="img-full-width" alt="" />
       {/* About us block */}
       <div className="block">
         <div className="left">

@@ -544,3 +544,8 @@ button:hover {
   padding: 10px 20px;
   color: white;
 }
+
+/* Set full-width images to 100% of viewport */
+.img-full-width{
+  width: 100%;
+}
