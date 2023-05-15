@@ -1,5 +1,6 @@
 import "public/styles/navbar.css";
 
+
 /* Navbar component */
 export default function Navbar(){
     return(
@@ -8,7 +9,7 @@ export default function Navbar(){
             <div className="top-bar"></div>
             <div className="container">
                 <div className="navbar">
-                    <img src="assets/images/home/TeaFusion-logo.png" alt="TeaFusion logo"/>
+                    <img className="logo" src="assets/images/home/TeaFusion-logo.png" alt="TeaFusion logo"/>
                     <ul className="nav">
                         <li><a href='/'>Home</a></li>
                         <li><a href="about">About Us</a></li>

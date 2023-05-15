@@ -1,5 +1,6 @@
 import Navbar from "../navbar.js";
 import Footer from "../footer.js";
+import "public/styles/navbar.css";
 
 export default function profile(){
     return(
