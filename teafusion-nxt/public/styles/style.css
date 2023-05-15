@@ -254,7 +254,7 @@ button:hover {
 .product button,
 .tea-product-text button {
   color: white;
-  background-color: green;
+  background-color: darkgreen;
 }
 
 .product-item {
@@ -274,7 +274,7 @@ button:hover {
 
 .product-text {
   text-align: center;
-  color: rgb(38, 106, 31);
+  color: darkgreen;
 }
 
 .product-text p:first-child {
@@ -290,10 +290,18 @@ button:hover {
   height: auto;
 }
 
-.center h2,
-.center h3 {
+.center h3, .center h2 {
+  color: darkgreen;
   text-align: center;
-  color: rgb(38, 106, 31);
+}
+
+.center h3 {
+  margin-bottom: 10px; /* reduce the margin between h3 and h2 */
+}
+
+.center h2 {
+  margin-top: 0; /* remove the default margin-top */
+  margin-bottom: 10px; /* reduce the margin between h2 and other elements */
 }
 
 .featured-flavors-container {
@@ -357,8 +365,10 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-weight: bold;
   letter-spacing: 1px;
+  font-family: 'Nunito';
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .tea-product-item {
@@ -374,6 +384,17 @@ button:hover {
 
 .tea-product-item p {
   margin: 0.5em 0;
+  color: darkgreen;
+}
+
+.tea-product-item p:first-child {
+  margin-top: 40px;
+  font-weight: 800 ;
+}
+
+.tea-product-item p:first-child:hover {
+ text-decoration: underline;
+color: green;
 }
 
 .awaken {
@@ -392,19 +413,19 @@ button:hover {
 .right-product-text>p:first-child {
   font-family: 'Bookman Old Style', serif;
   font-weight: bold;
-  color: green;
+  color: darkgreen;
   font-size: 2.5rem;
   margin-top: -10px;
 }
 
 .about-oolong-text h2 {
   margin-top: 80px;
-  color: green;
+  color: darkgreen;
   margin-bottom: 10px;
 }
 
 .about-oolong-text h3 {
-  color: green;
+  color: darkgreen;
   font-size: 1rem;
   margin-top: 10px;
 }
@@ -467,7 +488,7 @@ button:hover {
 .price {
   font-family: 'Bookman Old Style', serif;
   font-weight: bold;
-  color: green;
+  color: darkgreen;
   font-size: 2rem;
 }
 
@@ -483,13 +504,13 @@ button:hover {
 }
 
 .right-product-text p:nth-child(2) {
-  color: green;
+  color: darkgreen;
   margin-top: -15px;
 }
 
 
 .add-to-cart-btn {
-  background-color: green;
+  background-color: darkgreen;
   font-size: 18px;
   padding: 10px 20px;
   color: white;
