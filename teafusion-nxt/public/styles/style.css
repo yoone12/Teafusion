@@ -78,10 +78,10 @@ button:hover {
   color: white;
   background-color: orange;
   font-size: 20px;
-  padding: 30px 80px;
+  padding: 20px 80px;
   top: 50%;
   left: 50%;
-  transform: translate(50%, -520%);
+  transform: translate(50%, -600%);
   border: none;
   border-radius: 4px;
   font-weight: bold;
@@ -230,7 +230,7 @@ button:hover {
 
 /* Styles for the text block on the left */
 .ab-block-text {
-  padding: 10rem 6rem;
+  padding: 6rem 6rem 1rem 6rem;
   color: darkgreen;
 }
 
@@ -429,8 +429,6 @@ button[type="submit"]:hover {
   opacity: .8;
 }
 
-
-
 /* Right section */
 .right {
   margin-top: 80px;
@@ -538,10 +536,6 @@ button[type="submit"]:hover {
   margin-bottom: 10px;
 }
 
-.featured {
-  padding: 0 3rem;
-}
-
 .featured img {
   display: flex;
   justify-content: center;
@@ -552,7 +546,7 @@ button[type="submit"]:hover {
 
 .featured-header h2 {
   color: darkgreen;
-  margin-right: 21rem;
+  margin-right: 18rem;
 }
 
 .featured-flavors-container {
@@ -572,7 +566,7 @@ button[type="submit"]:hover {
 
 .featured-description {
   text-align: left;
-  margin-left: 110px;
+  margin-left: 160px;
   margin-right: 120px;
 }
 
