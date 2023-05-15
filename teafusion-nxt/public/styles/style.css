@@ -260,6 +260,8 @@ background: #fff;
 
 .product-item img:hover, .tea-product-item img:hover {
   opacity: 0.8;
+  border-radius: 9px;
+  border: solid rgb(188, 188, 188) 1px;
 }
 
 .product-text, .tea-product-item p:first-child {
@@ -270,6 +272,11 @@ background: #fff;
 
 .product-text p:first-child {
   font-weight: 800;
+  font-size: 20px;
+}
+
+.product-text p:nth-child(2) {
+  font-size: 16px;
 }
 
 .product button, .tea-product-text button {
@@ -299,6 +306,11 @@ background: #fff;
   height: auto;
 }
 
+.featured-header h2{
+  color: darkgreen;
+  margin-right: 21rem;
+}
+
 .featured-flavors-container {
   display: flex;
   flex-direction: row;
@@ -316,7 +328,7 @@ background: #fff;
 .featured-text {
   margin-left: 10px;
   margin-right: 150px;
-  color: rgb(89, 18, 18);
+  color: black;
 }
 
 .featured-description {
