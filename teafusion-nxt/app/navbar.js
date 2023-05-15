@@ -17,7 +17,7 @@ export default function Navbar(){
                     </ul>
                     <div class="nav-icons">
                         <img src="assets/images/home/icon-search.png" alt="" />
-                        <img src="assets/images/home/icon-profile.png" alt="" />
+                        <a href='profile'><img src="assets/images/home/icon-profile.png" alt="" /></a>
                         <img src="assets/images/home/icon-bag.png" alt="" />
                     </div>
                 </div>
