@@ -440,9 +440,21 @@ button[type="submit"]:hover {
   letter-spacing: 1px;
 }
 
-.right img {
+.right h1{
+  font-family: 'Bookman Old Style', serif;
+}
+
+.right .right-flex img {
   max-width: 260px;
-  height: auto;
+  height: 85px;
+}
+
+.right-flex{
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+  max-width: 450px;
+  gap: 30px;
 }
 
 .left img {

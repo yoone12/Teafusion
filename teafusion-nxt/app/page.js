@@ -53,11 +53,13 @@ export default function Home() {
               Targeting celebrated tea lovers and health-conscious individuals, our
               goal is to share a warm, hearty cup of tea with the world.
             </p>
-            <a href="/about">
-              <button>Learn more</button>
-            </a>
-            <img src="../assets/images/home/usda-organic.png" alt="" />
-            <img src="../assets/images/home/non-gmo.png" alt="" />
+            <div className="right-flex">
+              <img src="../assets/images/home/usda-organic.png" alt="" />
+              <img src="../assets/images/home/non-gmo.png" alt="" />
+              <a href="/about">
+                <button>Learn more</button>
+              </a>
+            </div>
           </div>
         </div>
         {/* Join us block */}
