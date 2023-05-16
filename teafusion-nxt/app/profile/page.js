@@ -36,14 +36,14 @@ export default function profile() {
                                     <p className={styles.orderT}>Herbal | 10 Tea Bags</p>
                                     <h3 className={styles.orderH}>1 Rustic Teapot</h3>
                                     <p className={styles.orderT}>Teapot | Set of 1</p>
+                                    <div className="log-out">
+                                        <button>Log out</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* Logout */}
-                    <div className="log-out">
-                        <button>Log out</button>
-                    </div>
                 </div>
                 <Footer />
             </body >

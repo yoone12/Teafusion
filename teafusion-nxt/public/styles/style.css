@@ -544,6 +544,10 @@ button[type="submit"]:hover {
   height: auto;
 }
 
+.img-full-width{
+  width: 100%;
+}
+
 .featured-header h2 {
   color: darkgreen;
   margin-right: 18rem;
@@ -763,5 +767,5 @@ button[type="submit"]:hover {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 45rem;
+  margin-top: 3rem;
 }

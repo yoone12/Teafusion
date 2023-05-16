@@ -45,9 +45,9 @@ export default function Home() {
         <div className="block">
           <div className="left">
             <img src="../assets/images/about/about-us-half.png" alt="" />
-            <h1>About Us</h1>
           </div>
           <div className="right">
+            <h1>About Us</h1>
             <p>
               Teafusion is a quality tea brand specializing in organic herbal tea.
               Targeting celebrated tea lovers and health-conscious individuals, our
