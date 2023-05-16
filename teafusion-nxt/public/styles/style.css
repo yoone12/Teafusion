@@ -520,10 +520,14 @@ button[type="submit"]:hover {
 }
 
 .center h2,
-.center h3,
+.center h3{
+  text-align: center;
+  color: darkgreen;
+}
+
 .featured-header {
   color: darkgreen;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -568,10 +572,13 @@ button[type="submit"]:hover {
   align-items: center;
 }
 
-.featured-description {
-  text-align: left;
+.featured-text{
   margin-left: 160px;
   margin-right: 120px;
+}
+
+.featured-description {
+  text-align: left;
 }
 
 .flavor-icons-container {
