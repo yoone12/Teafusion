@@ -756,7 +756,12 @@ button[type="submit"]:hover {
   color: white;
 }
 
-.pfp {
-  float: left;
-  margin-right: 20px;
+.log-out button {
+  background-color: darkgreen;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 45rem;
 }

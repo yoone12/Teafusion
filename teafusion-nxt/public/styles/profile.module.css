@@ -25,6 +25,8 @@
 .pfp{
     max-width: 240px;
     height: 240px;
+    float: left;
+    margin-right: 50px;
 }
 
 /* All text */
@@ -71,3 +73,4 @@
     margin-top: 0;
     font-size: 15px;
 }
+
