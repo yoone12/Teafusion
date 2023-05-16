@@ -453,8 +453,8 @@ button[type="submit"]:hover {
   display: flex;
   flex: 1 1;
   flex-wrap: wrap;
-  max-width: 450px;
-  gap: 30px;
+  max-width: 300px;
+  gap: 40px;
 }
 
 .left img {
