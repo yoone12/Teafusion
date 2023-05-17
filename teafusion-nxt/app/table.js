@@ -1,6 +1,7 @@
 export const table = [
     {
         id: 1,
+        image: "assets/images/profile/pfp-x.png",
         name: "Xenia Huang",
         email: "xenia@huangdesign.co",
         country: "United States",
