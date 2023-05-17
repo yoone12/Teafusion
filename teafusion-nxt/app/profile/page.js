@@ -17,6 +17,8 @@ export default function profile() {
         setDataResponse(data);
     }
 
+    fetchUsers();
+    
     return (
         <>
             <meta charSet="UTF-8" />
