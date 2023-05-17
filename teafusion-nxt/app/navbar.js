@@ -16,7 +16,7 @@ export default function Navbar(){
                         <li><a href="teas">Tea</a></li>
                         <li><a href="teaware">Teaware</a></li>
                     </ul>
-                    <div class="nav-icons">
+                    <div className="nav-icons">
                         <img src="assets/images/home/icon-search.png" alt="" />
                         <a href='profile'><img src="assets/images/home/icon-profile.png" alt="" /></a>
                         <img src="assets/images/home/icon-bag.png" alt="" />

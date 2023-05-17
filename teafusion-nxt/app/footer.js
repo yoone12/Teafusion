@@ -5,12 +5,12 @@ export default function Footer(){
         <div className="footer">
         <ul className="footernav">
             <li>
-                <a href="" onclick="return false">
+                <a href="" onClick="return false">
                 Privacy Policy
                 </a>
             </li>
             <li>
-                <a href="" onclick="return false">
+                <a href="" onClick="return false">
                 Terms and Conditions
                 </a>
             </li>
