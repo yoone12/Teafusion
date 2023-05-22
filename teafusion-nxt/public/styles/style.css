@@ -185,15 +185,14 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 70px 20px 0;
+  padding: 60px;
 }
 
 .menuitem {
-  width: calc(100% / 3);
   text-align: center;
   position: relative;
-  padding: 100px;
   margin-right: 10px;
+  flex: 0 1 400px;
 }
 
 .menuitem:hover::before {
@@ -206,7 +205,6 @@ button:hover {
 }
 
 .menuitem img {
-  max-width: 140%;
   transition: all 0.2s ease-in-out;
   transform: scale(1);
   opacity: 1;
