@@ -10,8 +10,8 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Teafusion</title>
       <div className="top-bar" />
+      <Navbar />
       <div className="container">
-        <Navbar />
         {/* Landing content */}
         <div className="landing">
           <div className="landing-image">
