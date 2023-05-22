@@ -6,6 +6,13 @@ body {
   overflow-x: hidden;
 }
 
+/* Image reset */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Set box-sizing property to border-box for all elements */
 * {
   box-sizing: border-box;
@@ -63,17 +70,6 @@ button:hover {
 }
 
 /* Set styles for landing image section */
-.landing img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.landing-image img {
-  width: 100%;
-  height: auto;
-}
-
 .landing button {
   color: white;
   background-color: orange;
@@ -127,8 +123,6 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
-  height: auto;
 }
 
 /* Set styles for a gradient background */
@@ -208,7 +202,6 @@ button:hover {
 
 .menuitem img {
   max-width: 140%;
-  height: auto;
   transition: all 0.2s ease-in-out;
   transform: scale(1);
   opacity: 1;
@@ -459,7 +452,6 @@ button[type="submit"]:hover {
 
 .left img {
   width: 90%;
-  height: auto;
   margin-left: 5rem;
 }
 
@@ -470,7 +462,6 @@ button[type="submit"]:hover {
 
 .source img {
   width: 80%;
-  height: auto;
   margin-right: 30rem;
 }
 
@@ -489,12 +480,6 @@ button[type="submit"]:hover {
   box-sizing: border-box;
   padding: 3rem;
   text-align: center;
-}
-
-.product-item img,
-.tea-product-item img {
-  width: 100%;
-  height: auto;
 }
 
 .product-item img:hover,
@@ -556,12 +541,6 @@ button[type="submit"]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
-  height: auto;
-}
-
-.img-full-width{
-  width: 100%;
 }
 
 .featured-header h2 {
@@ -610,7 +589,6 @@ button[type="submit"]:hover {
 }
 
 .flavor-icons-column img {
-  max-width: 100%;
   height: 140px;
   margin-bottom: 10px;
 }
@@ -636,10 +614,6 @@ button[type="submit"]:hover {
   padding: 2em;
 }
 
-.tea-product-item img {
-  max-width: 100%;
-}
-
 .tea-product-item p {
   margin: 0.5em 0;
   color: darkgreen;
@@ -660,12 +634,6 @@ button[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   max-width: 100%;
-}
-
-.awaken img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 .right-product-text>p:first-child {
