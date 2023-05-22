@@ -70,14 +70,19 @@ button:hover {
 }
 
 /* Set styles for landing image section */
+.landing-image {
+  position: relative;
+}
+
 .landing button {
   color: white;
   background-color: orange;
   font-size: 20px;
   padding: 20px 80px;
-  top: 50%;
-  left: 50%;
-  transform: translate(50%, -600%);
+  position: absolute;
+  top: 70%;
+  left: 11%;
+/*   transform: translate(50%, -600%); */
   border: none;
   border-radius: 4px;
   font-weight: bold;
