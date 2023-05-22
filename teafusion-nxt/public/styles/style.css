@@ -333,6 +333,7 @@ button:hover {
   font-family: 'Bookman Old Style', serif;
   font-size: 20px;
   margin-bottom: 5rem;
+  padding: 4rem 0;
   color: white;
   background-color: #6A7F51;
 }
@@ -344,6 +345,7 @@ button:hover {
 
 .join-us-block h1 {
   font-size: 32px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
