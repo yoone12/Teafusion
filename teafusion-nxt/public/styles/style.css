@@ -115,14 +115,6 @@ button:hover {
   margin: 30px 0;
 }
 
-.testimonial-container {
-  margin-left: 100px;
-}
-
-.testimonial-text p {
-  margin-bottom: 10px;
-}
-
 /* Center the about us image */
 .about-us-img {
   display: flex;
@@ -151,19 +143,23 @@ button:hover {
 /* Center the origin story section */
 .block {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  padding: 70px 0;
+  padding: 70px;
+  gap: 70px;
+}
+
+.block.reverse {
+  flex-flow: row-reverse wrap;
 }
 
 .block .left {
-  flex: 1;
-  padding-right: 20px;
+  flex: 1 0 20rem;
 }
 
 .block .right {
-  flex: 1;
-  padding-left: 100px;
+  flex: 1 0 20rem;
 }
 
 .block h2 {
@@ -428,12 +424,8 @@ button[type="submit"]:hover {
 }
 
 /* Right section */
-.right {
-  margin-top: 80px;
-}
 
 .right p {
-  margin-right: 70px;
   font-family: 'Nunito Sans', sans-serif;
   letter-spacing: 1px;
 }
@@ -453,21 +445,6 @@ button[type="submit"]:hover {
   flex-wrap: wrap;
   max-width: 300px;
   gap: 40px;
-}
-
-.left img {
-  width: 90%;
-  margin-left: 5rem;
-}
-
-.source-text p {
-  margin-right: 140px;
-  margin-bottom: 10px;
-}
-
-.source img {
-  width: 80%;
-  margin-right: 30rem;
 }
 
 /* Teas page */
