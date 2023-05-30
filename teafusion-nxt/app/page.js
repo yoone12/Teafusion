@@ -10,8 +10,8 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Teafusion</title>
       <div className="top-bar" />
+      <Navbar />
       <div className="container">
-        <Navbar />
         {/* Landing content */}
         <div className="landing">
           <div className="landing-image">
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
         {/* Image, Parallax(?) */}
-        <img src="../assets/images/home/home-full-2.png" className="img-full-width" alt="" />
+        <img src="../assets/images/home/home-full-2.png" alt="" />
         {/* About us block */}
         <div className="block">
           <div className="left">
@@ -81,8 +81,8 @@ export default function Home() {
           </div>
         </div>
         {/* Footer */}
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

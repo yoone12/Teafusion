@@ -1,13 +1,14 @@
 .container{
-    max-width: 70%;
+    max-width: 1600px;
     margin: 2rem auto;
 }
 
 .section{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     gap: 5%;
     justify-content: center;
+    padding: 1rem;
 }
 
 .right{
